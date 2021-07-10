@@ -12,7 +12,7 @@ body {
     background-color: #222222;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header nav {
@@ -37,6 +37,10 @@ nav a:hover {
 
 .nav-container {
     display: flex;
+}
+
+.nav-container li::before {
+    content: url(../img/huella.png);
 }
 
 
@@ -101,6 +105,11 @@ nav img {
 .productos-destacados {
     text-align: center;
     margin-top: 2rem;
+}
+
+.productos-destacados h1::before {
+    content: url(../img/pata.png);
+    display: block;
 }
 
 .img-patita {
